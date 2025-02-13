@@ -4,9 +4,6 @@ on:
   push:
     branches: ["main"]
 
-env:
-  AWS_REGION: ap-southeast-1
-
 jobs:
   CICD:
     runs-on: ubuntu-latest
